@@ -4,12 +4,11 @@ You need to create a function called countTeams that will receive four arguments
 The skills array represents the skill level of each player. The function should determine how many teams can be formed with at least minPlayers players whose skill level is between minLevel and maxLevel, inclusive.\
 The function should return an integer representing the total number of teams that can be formed per the criteria.
 
-#### Example \#
+#### Example 1
 ```
-skills = [4, 8, 5, 6]
-minPlayers = 2
-minLevel = 5
-maxLevel = 7
+Input: skills = [4, 8, 5, 6], minPlayers = 2, minLevel = 5, maxLevel = 7
+Output: 5
+Explanation: The list includes players with skill levels [12, 4, 6, 13, 5, 10]. They want to hire at least 3 players with skill levels between 4 and 10. One of the players with the following skill levels { 4, 6, 5, 10 } meet the criteria. There are 5 ways to form a team at least 3 players: { 4 6 5 }, { 4 6 10 }, { 4 5 10 }, { 6 5 10 }, { 4 6 5 10 }
 ```
 
 #### Constraints
