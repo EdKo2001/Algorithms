@@ -19,8 +19,8 @@ maxLevel = 7
 - `1 <= skills[i] <= 1000`
 
 ### Preliminary Solution
-- __Time Complexity__: O(TIME)
-- __Space Complexity__: O(SPACE)
+- __Time Complexity__: O(n^2)
+- __Space Complexity__: O(1)
 
 
 #### Solution Code
@@ -77,7 +77,3 @@ const combinations = (n: number, k: number): number => {
   return result;
 };
 ```
-
-### Best Available Solution
-- __Time Complexity__: O(n^2)
-- __Space Complexity__: O(1)
